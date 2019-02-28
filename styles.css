@@ -16,5 +16,26 @@ a:visited {
 
 body {
   font-family: 'Varela', sans-serif;
-  background: linear-gradient(#def8ff, #78BFEE);
+  background: linear-gradient(#E1F5FE, #ECEFF1);
+  padding: 40px;
+}
+
+.profile_pic {
+  border-radius: 50%;
+}
+
+.hobbies {
+  text-align: left;
+}
+
+.work {
+  text-align: right;
+}
+
+.skills {
+  text-align: right;
+}
+
+.work_fun {
+  text-align: left;
 }
