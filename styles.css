@@ -1,10 +1,12 @@
 /* font-family: 'Fugaz One', cursive;
 font-family: 'Varela', sans-serif; */
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Fugaz One', cursive;
 }
 
+p {
+  line-height: 1.5;
+}
 
 a {
   text-decoration: underline;
@@ -17,25 +19,78 @@ a:visited {
 body {
   font-family: 'Varela', sans-serif;
   background: linear-gradient(#E1F5FE, #ECEFF1);
-  padding: 40px;
+  padding: inherit 40px inherit;
+}
+
+/* Classes */
+.top_table {
+  text-align: center;
+}
+
+.top_table_row {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro_text {
+  text-align: center;
+  margin: 0 auto 50px;
+}
+
+.container {}
+
+.logo {
+  text-align: center;
+  position: relative;
 }
 
 .profile_pic {
   border-radius: 50%;
+  position: relative;
 }
 
 .hobbies {
   text-align: left;
+  width: 500px;
+  margin-right: auto;
 }
 
 .work {
   text-align: right;
-}
-
-.skills {
-  text-align: right;
+  position: relative;
+  margin-left: auto;
+  width: 500px;
 }
 
 .work_fun {
   text-align: left;
+  width: 500px;
+  margin-right: auto;
+}
+
+.skills {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.skills_text {
+  line-height: 1.5;
+  text-align: center;
+}
+
+.tbody {
+  text-align: center;
+}
+
+.skills_row_1{
+  text-align: center;
+  padding: 0 5px 0;
+}
+
+.skills_row_2 {
+
+}
+
+.hobbies .work .skills .work_fun {
+  padding: 40px;
 }
