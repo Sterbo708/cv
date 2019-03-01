@@ -26,7 +26,10 @@ body {
 .top_table {
   text-align: center;
 }
-
+.topnav {
+  text-align: center;
+  background-color: #ACBDC8;
+}
 .top_table_row {
   text-align: center;
   margin-bottom: 40px;
