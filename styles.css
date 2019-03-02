@@ -1,7 +1,9 @@
 /* font-family: 'Fugaz One', cursive;
 font-family: 'Varela', sans-serif; */
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive; */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Varela', sans-serif;
 }
 
 p {
@@ -19,28 +21,54 @@ a:visited {
 body {
   font-family: 'Varela', sans-serif;
   background: linear-gradient(#E1F5FE, #ECEFF1);
-  padding: inherit 40px inherit;
+  padding: inherit 100px inherit;
 }
 
 /* Classes */
-.top_table {
-  text-align: center;
+.container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
 .topnav {
   text-align: center;
   background-color: #ACBDC8;
 }
+
 .top_table_row {
   text-align: center;
   margin-bottom: 40px;
+}
+
+.links {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .intro_text {
   text-align: center;
   margin: 0 auto 50px;
 }
-
-.container {}
 
 .logo {
   text-align: center;
@@ -53,9 +81,32 @@ body {
 }
 
 .hobbies {
+  /* text-align: left; */
+  /* width: auto;
   text-align: left;
-  width: 500px;
-  margin-right: auto;
+  margin-right: auto; */
+}
+
+/* .photos_slideshow_hobbies { */
+/* float: left; */
+/* object-fit: contain;
+} */
+.pic_hob_top {
+  max-width: 50%;
+  /* float: left; */
+}
+
+.pic_hob_bot {
+  max-width: 50%;
+  margin-top: auto;
+  margin-right: 400px;
+  /* float: left; */
+}
+
+.hobbies_text {
+  text-align: center;
+  float: right;
+  max-width: 50%;
 }
 
 .work {
@@ -74,6 +125,7 @@ body {
 .skills {
   text-align: center;
   line-height: 1.5;
+  position: inherit;
 }
 
 .skills_text {
@@ -81,17 +133,9 @@ body {
   text-align: center;
 }
 
-.tbody {
-  text-align: center;
-}
-
-.skills_row_1{
+.skills_row_1 {
   text-align: center;
   padding: 0 5px 0;
-}
-
-.skills_row_2 {
-
 }
 
 .hobbies .work .skills .work_fun {

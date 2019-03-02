@@ -5,80 +5,104 @@
   <meta charset="utf-8">
   <title>Sterlyng's Personal Site</title>
   <!-- CSS Sheets and Fancy Stuff -->
-  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Varela" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway+Dots|Raleway:200i,500Fugaz+One|Varela" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <!-- END CSS Sheets and Fancy Stuff -->
 </head>
 
 <body>
-  <!-- Toolbar is gonna go first...I think -->
-  <div class="container">
+  <div class="start">
     <div class="row">
-      <td><img class="logo" src="Sterbo_103lb_RGB_LogoMark.png" alt="Sterbo708 Logo" /></td>
+      <img class="logo" src="Sterbo_103lb_RGB_LogoMark.png" alt="Sterbo708 Logo" /></td>
       <div class="topnav">
-        <a href="">Link 1</a>
-        <a href="">Link 2</a>
-        <a href="">Link 3</a>
-        <a href="">Link 4</a>
+        <a class="links" href="">Link 1</a>
+        <a class="links" href="">Link 2</a>
+        <a class="links" href="">Link 3</a>
+        <a class="links" href="">Link 4</a>
       </div>
     </div>
-    <td><img class="profile_pic" src="Sterlyng_EC_Pic.jpg" alt="Picture of Sterlyng Powell"></td>
-    <td>
-      <h1> <a href="https://sterlyngpowell.wixsite.com/smpowell">Sterlyng Powell</a> </h1>
-    </td>
-    </tr>
+    <img class="profile_pic" src="Sterlyng_EC_Pic.jpg" alt="Picture of Sterlyng Powell"></td>
+    <h1> <a href="https://sterlyngpowell.wixsite.com/smpowell">Sterlyng Powell</a> </h1>
   </div>
-  </table>
-  <div class="container intro_text">
+  <div class="intro_text">
     <div class="row">
       <p> <em>QA Tester, Social Butterfly, Likes creating things, Has a Twitter
         </em></p>
       <p>Currently Learning/Applying HTML, CSS, Javascript, and a bunch of ther stuff I need to learn to increase my skills</p>
     </div>
   </div>
-  <div class="container hobbies">
-    <div class="row">
-      <h3>Hobbies? What are those? </h3>
-      <p class="hobbies_text">Video games (Playing them, talking about them, working alongside them), hanging with my crews, as well as listening to and <a href="https://sterbo708.bandcamp.com/releases">Creating</a> Music</li>
+  <div class="container slideshow">
+    <div class="mySlides hobbies">
+      <div class="row hobbies_text">
+        <h3>Hobbies? What are those? </h3>
+        <p>Video games (Playing them, talking about them, working alongside them), reading comic books, hanging with my crews, as well as listening to and <a href="https://sterbo708.bandcamp.com/releases">Creating</a> Music</p>
+      </div>
+      <div class="row pic_hob_top">
+        <img src="https://picsum.photos/200" alt="picture">
+        <img src="https://picsum.photos/200" alt="picture">
+      </div>
+      <div class="row pic_hob_bot">
+        <img src="https://picsum.photos/200" alt="picture">
+        <img src="https://picsum.photos/200" alt="picture">
+      </div>
     </div>
-  </div>
-  <div class="container work">
-    <div class="row">
-      <h3>Work? What have I done?</h3>
-      <p class="work_text">By day, I'm a QA Tester for Video games. By night and free times, I've done freelancing as a Video Game Capture Artist and an Audio Engineer, as well as work in Event Marketing as an Exhibitor. </p>
-      <!-- Show a type of video from my work -->
+    <div class="mySlides work">
+      <div class="row">
+        <h3>Work? What have I done?</h3>
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <br>
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <p class="work_text">By day, I'm a QA Tester for Video games. By night and free times, I've done freelancing as a Video Game Capture Artist and an Audio Engineer, as well as work in Event Marketing as an Exhibitor. </p>
+        <!-- Show a type of video from my work -->
+      </div>
     </div>
-  </div>
-  <div class="container work_fun">
-    <div class="row">
-      <h3>Insert cool stuff done here</h3>
-      <p class="work_fun_text">I've worked at Anime Expo and EVO, Created a video game music EP, worked on Video game trailers, and lots of other fun stuff!</p>
+    <div class="mySlides work_fun">
+      <div class="row">
+        <h3>Insert cool stuff done here</h3>
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <p class="work_fun_text">I've worked at Anime Expo and EVO, Created a video game music EP, worked on video game trailers, and lots of other fun stuff!</p>
+      </div>
     </div>
+    <div class="mySlides life">
+      <div class="row">
+        <h3>Life</h3>
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <img class="photos_slideshow" src="https://picsum.photos/200" alt="picture">
+        <p>I've done lots of things overall in my life. From being a Camp Counselor at my Church Summer Camp, being an RA, having a job as a bartender, and anything in-between!</p>
+      </div>
+    </div>
+    <a class="prev" onClick = "plusSlides(-1)">&#10094;</a>
+    <a class="next" onClick = "plusSlides(1)">&#10095;</a>
   </div>
-  <div class="container skills">
+  <div class="skills">
     <div class="row">
       <h3>How's that <b>Skill</b>tree looking?</h3>
       <p>Skills are below! (And I always have room to grow 😁)</p>
-      <table cellspacing="30">
-        <tbody class="skills_text">
-          <tr class="skills_row_1">
-            <td>Video Games</td>
-            <td>Customer Service</td>
-            <td>Quality Assurance</td>
-            <td>Music Software</td>
-          </tr>
-          <tr class="skills_row_2">
-            <td>Social Media</td>
-            <td>HTML/CSS</td>
-            <td>Javascript</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="row skills_row_1 skills_text">
+        <p>Video Games</p>
+        <p>Customer Service</p>
+        <p>Quality Assurance</p>
+        <p>Audio/Video Editing</p>
+      </div>
+      <div class="row skills_row_2 skills_text">
+        <p>Social Media</p>
+        <p>HTML/CSS</p>
+        <p>Javascript</p>
+      </div>
     </div>
   </div>
-  <p>
-    <a href="Contact.html">Contact Me</a> on various social sites!
-  </p>
+  <footer class="socials">
+    <p>
+      <a href="Contact.html">Contact Me</a> on various social sites!
+    </p>
+  </footer>
   <!-- <footer>insert links to other social media sites here </footer> -->
   <script src="index.js" charset="utf-8"></script>
 </body>
