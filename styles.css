@@ -80,47 +80,37 @@ body {
   position: relative;
 }
 
-.hobbies {
-  /* text-align: left; */
-  /* width: auto;
-  text-align: left;
-  margin-right: auto; */
-}
 
-/* .photos_slideshow_hobbies { */
-/* float: left; */
-/* object-fit: contain;
-} */
-.pic_hob_top {
+.pics_top {
   max-width: 50%;
   /* float: left; */
 }
 
-.pic_hob_bot {
+.pics_bot {
   max-width: 50%;
   margin-top: auto;
   margin-right: 400px;
   /* float: left; */
 }
 
-.hobbies_text {
+.slide_text {
   text-align: center;
   float: right;
   max-width: 50%;
 }
 
-.work {
+/* .work {
   text-align: right;
   position: relative;
   margin-left: auto;
   width: 500px;
-}
+} */
 
-.work_fun {
+/* .work_fun {
   text-align: left;
   width: 500px;
   margin-right: auto;
-}
+} */
 
 .skills {
   text-align: center;
