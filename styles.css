@@ -99,25 +99,22 @@ body {
   max-width: 50%;
 }
 
-/* .work {
-  text-align: right;
-  position: relative;
-  margin-left: auto;
-  width: 500px;
-} */
-
-/* .work_fun {
-  text-align: left;
-  width: 500px;
-  margin-right: auto;
-} */
-
 .skills {
   text-align: center;
   line-height: 1.5;
   position: inherit;
 }
 
+.extra_text {
+  display: none;
+}
+
+span:hover + .extra_text {
+  background-color: #F3C130;
+  padding: 10px;
+  display: block;
+
+}
 .skills_text {
   line-height: 1.5;
   text-align: center;
