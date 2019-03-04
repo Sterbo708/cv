@@ -35,6 +35,12 @@ body {
   margin: auto;
 }
 
+.container_link {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
 .mySlides {
   display: none;
 }
@@ -65,6 +71,22 @@ body {
   box-shadow: 5px 5px 5px gray;
 }
 
+.topnav_link {
+  text-align: center;
+  background-color: #F8C471;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.logo_link {
+  text-align: left;
+  position: relative;
+  float: left;
+  width: 10%;
+  height: 10%;
+}
 .links {
   padding-left: 40px;
   padding-right: 40px;
@@ -130,8 +152,8 @@ body {
   padding: 40px;
 }
 
-/* Hidden Spans And Such */
-.extra_text_1, .extra_text_2, .extra_text_3, .extra_text_4, .extra_text_5, .extra_text_6, .extra_text_7 {
+/* Hidden Spans And Such That were gonna be thing sbut aren't now*/
+/* .extra_text_1, .extra_text_2, .extra_text_3, .extra_text_4, .extra_text_5, .extra_text_6, .extra_text_7 {
   display: none;
   transition: transform 2s;
 }
@@ -185,7 +207,7 @@ span:hover+.extra_text_7 {
   background-color: #F7C63A;
   padding: 20px;
   display: block;
-}
+} */
 
 /* Footer */
 .socials {
