@@ -148,8 +148,17 @@ body {
   display: block;
 }
 
-.hobbies .work .skills .work_fun {
+.hobbies .work .life .work_fun {
   padding: 40px;
+}
+
+.hobbies_link, .work_link, .cool_stuff_link, .life_link {
+  text-align: center;
+  background-color: inherit;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  /* box-shadow: 5px 5px 5px gray; */
 }
 
 /* Hidden Spans And Such That were gonna be thing sbut aren't now*/
@@ -208,6 +217,10 @@ span:hover+.extra_text_7 {
   padding: 20px;
   display: block;
 } */
+
+.extra_link_text {
+  background-color: inherit;
+}
 
 /* Footer */
 .socials {
